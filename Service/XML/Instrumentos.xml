@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Instrumentos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Instrumento>
+    <Id>1</Id>
+    <Nome>Diapasão</Nome>
+    <Tipo>Outro</Tipo>
+    <Descricao>Diapasão (Fundamental: Lá 440 Hz)</Descricao>
+    <Imagem>Diapasao.PNG</Imagem>
+    <Som>diap-la.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>2</Id>
+    <Nome>Flauta doce</Nome>
+    <Tipo>Sopro</Tipo>
+    <Descricao> Flauta doce (Fundamental: Lá 880 Hz)</Descricao>
+    <Imagem>FautaDoce.PNG</Imagem>
+    <Som>doce-la.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>3</Id>
+    <Nome>Flauta transversa</Nome>
+    <Tipo>Sopro</Tipo>
+    <Descricao>Flauta transversa (Fundamental: Lá 440 Hz)</Descricao>
+    <Imagem>Flautatransversa.PNG</Imagem>
+    <Som>trans-la.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>4</Id>
+    <Nome>Flautim ou Piccolo</Nome>
+    <Tipo>Sopro</Tipo>
+    <Descricao>Flautim ou Piccolo (Fundamental: Lá 880 Hz)</Descricao>
+    <Imagem>Flautim.PNG</Imagem>
+    <Som>pico-la.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>5</Id>
+    <Nome>Oboé</Nome>
+    <Tipo>Outro</Tipo>
+    <Descricao>Oboé (Fundamental: Lá 440 Hz)</Descricao>
+    <Imagem>Oboe.PNG</Imagem>
+    <Som>oboe-la.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>6</Id>
+    <Nome>Harmônica ou Gaita de boca</Nome>
+    <Tipo>Sopro</Tipo>
+    <Descricao>Harmônica ou Gaita de boca (Fundamental: Lá 440 Hz)</Descricao>
+    <Imagem>Gaitadeboca.PNG</Imagem>
+    <Som>harm-la4.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>7</Id>
+    <Nome>Violão com cordas de nylon</Nome>
+    <Tipo>Cordas</Tipo>
+    <Descricao>Violão com cordas de nylon (Fundamental: Lá 110 Hz)</Descricao>
+    <Imagem>Violao.PNG</Imagem>
+    <Som>nylo-la.wav</Som>
+  </Instrumento>
+  <Instrumento>
+    <Id>8</Id>
+    <Nome>Bandolim - cordas de aço</Nome>
+    <Tipo>Cordas</Tipo>
+    <Descricao>Bandolim - cordas de aço (Fundamental: Lá 440 Hz)</Descricao>
+    <Imagem>Bandolim.PNG</Imagem>
+    <Som>band-la.wav</Som>
+  </Instrumento>
+</Instrumentos>
