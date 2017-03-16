@@ -1,0 +1,20 @@
+﻿
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td><h3>Instrumentos</h3></td>
+            <td class="text-right">
+                <button ui-sref="newInstrumento" class="btn-primary btn-lg"><i class="glyphicon glyphicon-plus"></i></button>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in instrumentos">
+            <td>{{item.Nome.length > 23 ? item.Nome.substr(0,23) + '...' : item.Nome}}</td>
+            <td class="text-right">
+                <a class="btn btn-primary" ui-sref="editInstrumento({Id:item.Id})"><i class="glyphicon glyphicon-edit"></i></a>
+                <a class="btn btn-info" ui-sref="viewInstrumentos({Id:item.Id})"><i class="glyphicon glyphicon-info-sign"></i></a>
+            </td>
+        </tr>
+    </tbody>
+</table>

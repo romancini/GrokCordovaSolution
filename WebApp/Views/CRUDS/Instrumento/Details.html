@@ -1,0 +1,35 @@
+﻿
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td colspan="2"><h3>{{instrumento.Nome}}</h3></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tipo</td>
+            <td>{{instrumento.Tipo}}</td>
+        </tr>
+
+        <tr>
+            <td>Imagem</td>
+            <!--<td><img width="100" ng-src="data:image/png;base64,{{instrumento.Imagem}}" /></td>-->
+            <td><img width="100" ng-src="{{serviceBase + instrumento.Imagem}}" /></td>
+        </tr>
+        <tr>
+            <td>Som</td>
+            <td id="tdAudio"></td>
+        </tr>
+        <tr>
+            <td>Descrição</td>
+            <td>{{instrumento.Descricao}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="form-group">
+    <div class="col-sm-10">
+        <button type="button" class="btn btn-default" ui-sref="listInstrumentos"><i class="glyphicon glyphicon-circle-arrow-left"></i> Voltar</button>
+        <button type="button" class="btn btn-danger" ng-click="deleteInstrumento(instrumento)"><i class="glyphicon glyphicon-remove-sign"></i> Deletar</button>
+    </div>
+</div>

@@ -95,8 +95,8 @@ namespace DAL.Instrumentos
             ret.Nome = itemEncontrado.Nome;
             ret.Tipo = itemEncontrado.Tipo;
             ret.Descricao = itemEncontrado.Descricao;
-            ret.Imagem = @"Imagem/" + itemEncontrado.Imagem;
-            ret.Som = @"Som/" + itemEncontrado.Som;
+            ret.Imagem = @"Imagens/" + itemEncontrado.Imagem;
+            ret.Som = @"Sons/" + itemEncontrado.Som;
 
             return ret;
         }

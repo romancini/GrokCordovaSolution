@@ -1,0 +1,16 @@
+﻿.help-block p {
+    color: red;
+    font-size: 10px;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+
+.divMsg {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    z-index: 100;
+    min-height: 150px;
+    display: none;
+}
